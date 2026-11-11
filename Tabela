@@ -1,0 +1,31 @@
+local Gangs = {
+	[8715649] = {
+		Nome = "Tokyo Manji Gang",
+		RankMinimo = 1,
+
+		Itens = {
+			Soco = 1,
+			Chute = 1,
+			Kokusen = 2,
+		},
+
+		Cor = {
+			Nome = {
+				Letra = {255, 255, 255},
+				Borda = {0, 0, 0},
+			},
+
+			Patente = {
+				Letra = {255, 255, 255},
+				Borda = {0, 0, 0},
+			},
+
+			Team = {
+				Letra = {255, 190, 45},
+				Borda = {0, 0, 0},
+			},
+		},
+	},
+}
+
+return Gangs
